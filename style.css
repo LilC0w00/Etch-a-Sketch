@@ -1,0 +1,11 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.cell {
+  border: 1px solid black;
+}
